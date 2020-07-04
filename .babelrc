@@ -5,6 +5,23 @@
 				[
 					"styled-components",
 					{ "ssr": true, "displayName": true, "preprocess": false }
+				],
+				[
+					"import",
+					{
+						"libraryName": "antd",
+						"libraryDirectory": "lib",
+						"style": "index.css"
+					}
+				],
+				[
+					"import",
+					{
+						"libraryName": "@ant-design/icons",
+						"libraryDirectory": "lib/icons",
+						"camel2DashComponentName": false
+					},
+					"@ant-design/icons"
 				]
 			],
 			"presets": ["next/babel"]
@@ -14,6 +31,23 @@
 				[
 					"styled-components",
 					{ "ssr": true, "displayName": true, "preprocess": false }
+				],
+				[
+					"import",
+					{
+						"libraryName": "antd",
+						"libraryDirectory": "lib",
+						"style": "index.css"
+					}
+				],
+				[
+					"import",
+					{
+						"libraryName": "@ant-design/icons",
+						"libraryDirectory": "lib/icons",
+						"camel2DashComponentName": false
+					},
+					"@ant-design/icons"
 				]
 			],
 			"presets": ["next/babel"]
@@ -23,6 +57,23 @@
 		[
 			"styled-components",
 			{ "ssr": true, "displayName": true, "preprocess": false }
+		],
+		[
+			"import",
+			{
+				"libraryName": "antd",
+				"libraryDirectory": "lib",
+				"style": "index.css"
+			}
+		],
+		[
+			"import",
+			{
+				"libraryName": "@ant-design/icons",
+				"libraryDirectory": "lib/icons",
+				"camel2DashComponentName": false
+			},
+			"@ant-design/icons"
 		]
 	]
 }

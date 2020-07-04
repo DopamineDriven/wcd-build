@@ -14,7 +14,8 @@ class ListClass extends Component<Props> {
 				id: 1,
 				title: "Andrew Ross",
 				date: "2020-07-04",
-				source: "https://github.com/DopamineDriven",
+                source: "https://github.com/DopamineDriven",
+                category: "People",
 				image:
 					"https://res.cloudinary.com/asross311/image/upload/v1592831978/ASR_Assets/cropped-a_nqaem7.png",
 				lead: "CTO",
@@ -25,7 +26,8 @@ class ListClass extends Component<Props> {
 				id: 2,
 				title: "Joe Shields",
 				date: "2020-07-04",
-				source: "https://github.com/JShields30",
+                source: "https://github.com/JShields30",
+                category: "People",
 				image:
 					"https://res.cloudinary.com/asross311/image/upload/v1592801826/ASR_Assets/Joe_vlnzpm.jpg",
 				lead: "CEO",
@@ -36,7 +38,8 @@ class ListClass extends Component<Props> {
 				id: 3,
 				title: "Genghis Yong",
 				date: "2020-07-04",
-				source: "https://github.com/yhlee-dho",
+                source: "https://github.com/yhlee-dho",
+                category: "People",
 				image:
 					"https://res.cloudinary.com/asross311/image/upload/v1592800832/ASR_Assets/Yong_ehso3r.png",
 				lead: "COO",
@@ -47,7 +50,8 @@ class ListClass extends Component<Props> {
 				id: 4,
 				title: pathname,
 				date: "2020-07-04",
-				source: "https://github.com/yhlee-dho",
+                source: "https://github.com/yhlee-dho",
+                category: "Technologies",
 				image:
 					"https://res.cloudinary.com/asross311/image/upload/v1592800832/ASR_Assets/Yong_ehso3r.png",
 				lead: "COO",
