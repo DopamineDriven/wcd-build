@@ -1,12 +1,12 @@
 import React, { FC } from "react";
-import ListItem from "../ListItem";
+import { ListItem } from "../ListItem";
 import IDataObject from "../../interfaces";
 
 type Props = {
 	items: IDataObject[];
 };
 
-const List: FC<Props> = ({ items }) => {
+export const List: FC<Props> = ({ items }) => {
 	return (
 		<ul>
 			{items.map((item) => (
@@ -17,5 +17,3 @@ const List: FC<Props> = ({ items }) => {
 		</ul>
 	);
 };
-
-export default List;

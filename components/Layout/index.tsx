@@ -7,7 +7,7 @@ type Props = {
 	children: any;
 };
 
-const Layout: FC<Props> = ({ children, title = "default title" }) => {
+export const Layout: FC<Props> = ({ children, title = "default title" }) => {
 	return (
 		<div>
 			<Head>
@@ -43,5 +43,3 @@ const Layout: FC<Props> = ({ children, title = "default title" }) => {
 		</div>
 	);
 };
-
-export default Layout;

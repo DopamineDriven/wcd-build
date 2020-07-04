@@ -5,10 +5,10 @@ type Props = {
 	data: IDataObject;
 };
 
-const ListItem: FC<Props> = ({ data }) => {
+export const ListItem: FC<Props> = ({ data }) => {
 	return (
 		<Fragment>
-			{data.id}:{data.name}
+			{data.id}:{data.title}
 			{data.date}
 			{data.source}
 			{data.image}
@@ -17,5 +17,3 @@ const ListItem: FC<Props> = ({ data }) => {
 		</Fragment>
 	);
 };
-
-export default ListItem;
