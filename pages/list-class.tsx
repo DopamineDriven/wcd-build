@@ -51,7 +51,7 @@ class ListClass extends Component<Props> {
 				title: pathname,
 				date: "2020-07-04",
                 source: "https://github.com/yhlee-dho",
-                category: "Technologies",
+                category: "Technology",
 				image:
 					"https://res.cloudinary.com/asross311/image/upload/v1592800832/ASR_Assets/Yong_ehso3r.png",
 				lead: "COO",

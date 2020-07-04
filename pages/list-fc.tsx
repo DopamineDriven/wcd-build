@@ -1,16 +1,17 @@
 import React from "react";
 import { NextPage, NextPageContext } from "next";
-import { Layout, List } from "../components";
-import IDataObject from "../interfaces/index";
+import { Layout, Feed } from "../components";
+import IDataObject, { Category } from "../interfaces/index";
 
 type Props = {
-	items: IDataObject[];
+    items: IDataObject[];
+    categories: Category[];
 };
 
-const ListFunction: NextPage<Props> = ({ items }) => {
+export const ListFunction = ({ items, categories }: NextPage & Props) => {
 	return (
 		<Layout title="Class Data List">
-			<List items={items} />
+			<Feed items={items} categories={categories} />
 		</Layout>
 	);
 };
@@ -58,7 +59,7 @@ ListFunction.getInitialProps = async ({ pathname }: NextPageContext) => {
 			title: pathname,
 			date: "2020-07-04",
             source: "https://github.com/yhlee-dho",
-            category: "Technologies",
+            category: "Technology",
 			image:
 				"https://res.cloudinary.com/asross311/image/upload/v1592800832/ASR_Assets/Yong_ehso3r.png",
 			lead: "COO",

@@ -1,9 +1,10 @@
 export type UriString = string;
-export type Category = "People" | "Project" | "Technologies";
-
+export type Category = "People" | "Project" | "Technology";
+export type EntityId = number | UniqueString;
+export type UniqueString = string;
 export type DateIsoString = string;
 export default interface IDataObject {
-    id: number;
+    id: EntityId;
     title: DateIsoString;
     date: string;
     category: Category;
