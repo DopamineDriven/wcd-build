@@ -1,8 +1,9 @@
 import React, { FC } from "react";
+import { NextPage } from "next";
 import Link from "next/link";
 import { Layout } from "../components";
 
-const IndexPage: FC = () => {
+const IndexPage: FC<NextPage> = () => {
 	return (
 		<Layout>
 			<h1>Hello Next</h1>

@@ -21,11 +21,11 @@ export const Layout: FC<Props> = ({ children, title = "default title" }) => {
 						<a>Home</a>
 					</Link>{" "}
 					|{" "}
-					<Link href="/lfc">
+					<Link href="/list-fc">
 						<a>List as a FC</a>
 					</Link>{" "}
 					|{" "}
-					<Link href="/lcc">
+					<Link href="/list-class">
 						<a>List as a CC</a>
 					</Link>{" "}
 					|{" "}
