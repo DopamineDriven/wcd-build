@@ -21,7 +21,7 @@
     "esm": "^3.2.25",
     "mongodb": "^3.5.9",
     "next": "^9.4.4",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "postcss-preset-env": "^6.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
